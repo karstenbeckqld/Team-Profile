@@ -35,7 +35,15 @@ h2 {
 /* End of colour block Styles */
 /* Front Page Content Styles */
 img.fp-paragraph-image {
-  width: 100%;
+	width: 75%;
+}
+
+.btn {
+  background-color: #2b454E;
+}
+
+.footer {
+  margin-top: 40px;
 }
 
 /* Media Breakpoints */
