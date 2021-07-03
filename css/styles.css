@@ -43,9 +43,22 @@ h2 {
 .btn {
   background-color: #2b454E;
 }
-
 .footer {
-  margin-top: 40px;
+   background-color: #1B1B1B;
+  color: #D5D5D5;
+  min-height: 100px;
+}
+.footer-styles {
+ 
+}
+.footer-styles a {
+  color: #B5B5B5;
+}
+.footer-styles a:hover{
+  color: #FFFFFF;
+}
+.footer {
+  padding-top: 40px;
 }
 
 /* Media Breakpoints */
