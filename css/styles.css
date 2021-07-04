@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   color: #000000;
 }
 h2 {
@@ -22,30 +22,38 @@ h2 {
   min-height: 500px;
   box-shadow: 0 2 5 10 #000;
 }
-.info {
+.design {
   background-color: #2B454E;
   min-height: 100px;
   box-shadow: 0 2 5 10 #000;
   color: #FFFFFF;
 }
+
 .info-bg {
     background-image: url("../images/team-info-bg.svg");
     background-repeat: no-repeat;
     background-position: 0 -25%;
 	background-size: cover;
 	background-attachment: fixed;
+}.profile-bg {
+    background-image: url("../images/team-profile-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 0 -25%;
+	background-size: cover;
+	background-attachment: fixed;
 }
-.info h1 {
-	padding-top: 60px;
+.design h1 {
+	 color: #FFFFFF;
+  padding: 60px 0 80px 0;
+  font-weight: 500;
+  text-transform: uppercase;
 }
-.info-bg p {
-	font-weight: 300;
-}
+
 .main h1 {
   color: #FFFFFF;
   padding: 60px 0 80px 0;
   font-weight: 500;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 .main h2 {
   color: #FFFFFF;
