@@ -34,13 +34,13 @@ h2 {
 .info-bg {
     background-image: url("../images/team-info-bg.svg");
     background-repeat: no-repeat;
-    background-position: 0 -25%;
+    background-position: 0 0;
     background-size: cover;
 }
 .profile-bg {
     background-image: url("../images/team-profile-bg.svg");
     background-repeat: no-repeat;
-    background-position: 0 -25%;
+    background-position: 0 0;
     background-size: cover;
 }
 .design h1 {
