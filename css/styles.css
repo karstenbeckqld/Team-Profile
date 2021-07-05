@@ -84,6 +84,9 @@ h2 {
 .footer {
   padding-top: 40px;
 }
+.skills_marker {
+  width: 20px;
+}
 /* Media Breakpoints */
 @media (max-width:376.98) {
   .removable {
