@@ -93,6 +93,38 @@ h2 {
 .skills_marker {
     width: 20px;
 }
+
+/* Styles for table */
+.font-improve {
+  font-weight: 400;
+  border: 1px solid #000;
+}
+.text-blue {
+  color: #21abe4;
+}
+.bg-blue {
+  background-color: #21abe4;
+}
+.text-green {
+  color: #5db751;
+}
+.bg-green {
+  background-color: #5db751;
+}
+th.emphasis {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+td.border-emphasis {
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+}
+td.border-emphasis-right {
+  border-right: 2px solid #000;
+}
+td.no-border-right {
+  border-right: 0px;
+}
 /* Media Breakpoints */
 @media (max-width:376.98) {
     .removable {
