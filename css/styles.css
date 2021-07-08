@@ -125,6 +125,15 @@ td.border-emphasis-right {
 td.no-border-right {
   border-right: 0px;
 }
+
+.image-reference {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.image-reference-span {
+  font-weight: bold;
+}
 /* Media Breakpoints */
 @media (max-width:376.98) {
     .removable {
