@@ -1,117 +1,113 @@
 body {
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #000000;
-    height: 100%;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000;
+  height: 100%;
 }
 h2 {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 .full-height {
   height: 100%;
 }
-.to-top{
-	width: 30px;
+.to-top {
+  width: 30px;
 }
-.spacer{
-	height: 40px;
+.spacer {
+  height: 40px;
 }
 /* Start of navigation styles */
 .navbar {
-    font-family: Roboto, sans-serif;
-    background-color: #FFFFFF;
-    color: #000000;
-    font-weight: 300;
-    font-size: 20px;
+  font-family: Roboto, sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-weight: 300;
+  font-size: 20px;
 }
 /* End of navigation styles */
-/* Start of colour Block Styles */
+/* Start of feature colour block Styles */
 .main {
-    padding-top: 100px;
-    background-color: #2B454E;
-    min-height: 500px;
-    box-shadow: 0 2 5 10 #000;
-}
-.design {
-    background-color: #2B454E;
-    min-height: 100px;
-    box-shadow: 0 2 5 10 #000;
-    color: #FFFFFF;
-}
-.info-bg {
-    background-image: url("../images/team-info-bg.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-}
-.profile-bg {
-    background-image: url("../images/team-profile-bg.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-}
-.tech-bg {
-    background-image: url("../images/team-technology-bg.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-}
-.it-work-bg {
-    background-image: url("../images/team-it-work-bg.svg");
-	background-repeat: no-repeat;
-	/*background-position: left center;*/
-	background-size: cover;
-}
-.jobs-bg {
-    background-image: url("../images/team-jobs-bg.svg");
-    background-repeat: no-repeat;
-    background-position: 0 center;
-    background-size: cover;
-}
-.bg-image {
-    min-height: 100%;
-	min-width: 1024px;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	position: absolute;
-}
-
-/*img.bg {
-  min-height: 100%;
-  min-width: 1024px;
-	
-  width: 100%;
-  height: auto;
-	
-  position: fixed;
-  top: 0;
-  left: 0;
-}*/
-
-.design h1 {
-    color: #FFFFFF;
-    padding: 60px 0 80px 0;
-    font-weight: 500;
-    text-transform: uppercase;
+  padding-top: 100px;
+  background-color: #2B454E;
+  min-height: 500px;
+  box-shadow: 0 2 5 10 #000;
 }
 .main h1 {
-    color: #FFFFFF;
-    padding: 60px 0 80px 0;
-    font-weight: 500;
-    text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 60px 0 80px 0;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .main h2 {
-    color: #FFFFFF;
-    font-weight: 500;
+  color: #FFFFFF;
+  font-weight: 500;
 }
-/* End of colour block Styles */
+.design {
+  background-color: #2B454E;
+  min-height: 100px;
+  box-shadow: 0 2 5 10 #000;
+  color: #FFFFFF;
+}
+.design h1 {
+  color: #FFFFFF;
+  padding: 60px 0 80px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+/*End of feature colour block styles*/
+/*Start of pages background image styles*/
+.info-bg {
+  background-image: url("../images/team-info-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.profile-bg {
+  background-image: url("../images/team-profile-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.tech-bg {
+  background-image: url("../images/team-technology-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.it-work-bg {
+  background-image: url("../images/team-it-work-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.jobs-bg {
+  background-image: url("../images/team-jobs-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+/*End of pages background image styles*/
+
 /* Front Page Content Styles */
-.fp-paragraph-image {
-    width: 80%;
-    margin-top: 40px;
-    align-items: center;
-}
+/*.fp-paragraph-image {
+  width: 80%;
+  margin-top: 40px;
+  align-items: center;
+}*/
 /*.cybsersec-bg h1 {
     color: #2B454E;
 }*/
@@ -122,24 +118,23 @@ h2 {
     background-color: #2b454E;
 }*/
 .footer {
-    background-color: #1B1B1B;
-    color: #D5D5D5;
-    min-height: 100px;
+  background-color: #1B1B1B;
+  color: #D5D5D5;
+  min-height: 100px;
 }
 .footer-styles {}
 .footer-styles a {
-    color: #B5B5B5;
+  color: #B5B5B5;
 }
 .footer-styles a:hover {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 .footer {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 .skills_marker {
-    width: 15px;
+  width: 15px;
 }
-
 /* Styles for table */
 .font-improve {
   font-weight: 400;
@@ -171,7 +166,6 @@ td.border-emphasis-right {
 td.no-border-right {
   border-right: 0px;
 }
-
 .image-reference {
   font-style: italic;
   font-weight: 400;
@@ -182,71 +176,71 @@ td.no-border-right {
 }
 /* Media Breakpoints */
 @media (max-width:376.98) {
-    .removable {
-        display: none;
-    }
-	.to-top{
-	width: 30px;
-	/*margin-right: 40px;*/
-	text-align: center;
-}
+  .removable {
+    display: none;
+  }
+  .to-top {
+    width: 30px;
+    /*margin-right: 40px;*/
+    text-align: center;
+  }
 }
 @media (min-width:377px) and (max-width:575.98px) {
-    .removable {
-        display: none;
-        padding-top: 40px;
-    }
-    .main h1 {
-        font-size: 1.9rem;
-    }
-	.to-top{
-	width: 30px;
-	/*margin-right: 40px;*/
-		text-align: center;
-}
+  .removable {
+    display: none;
+    padding-top: 40px;
+  }
+  .main h1 {
+    font-size: 1.9rem;
+  }
+  .to-top {
+    width: 30px;
+    /*margin-right: 40px;*/
+    text-align: center;
+  }
 }
 @media (min-width:576px) and (max-width:767.98px) {
-    .col-small {
-        float: left;
-        width: 100%;
-        min-width: 16.6667%;
-    }
-    .main h2 {
-        font-weight: 500;
-        font-size: 1rem;
-    }
-    .main img {
-        width: 100%;
-        padding-top: 20px;
-    }
-    .removable {
-        padding-top: 20px;
-    }
+  .col-small {
+    float: left;
+    width: 100%;
+    min-width: 16.6667%;
+  }
+  .main h2 {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .main img {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .removable {
+    padding-top: 20px;
+  }
 }
 @media (min-width:768px) and (max-width:959.98px) {
-    .main h2 {
-        font-weight: 500;
-        font-size: 1rem;
-    }
-    .main img {
-        width: 100%;
-    }
-    .removable {
-        padding-top: 50px;
-    }
+  .main h2 {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .main img {
+    width: 100%;
+  }
+  .removable {
+    padding-top: 50px;
+  }
 }
 @media (min-width:960px) and (max-width:1022.98px) {
-    .main h2 {
-        font-weight: 600;
-        font-size: 1.2rem;
-    }
+  .main h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
 }
 @media (min-width:1023px) and (max-width:1199.98px) {
-    .main h2 {
-        font-weight: 600;
-        font-size: 1.2rem;
-    }
-    .main img {
-        width: 100%;
-    }
+  .main h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .main img {
+    width: 100%;
+  }
 }
