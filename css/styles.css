@@ -49,6 +49,18 @@ h2 {
     background-position: 0 0;
     background-size: cover;
 }
+.tech-bg {
+    background-image: url("../images/team-technology-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+.it-work-bg {
+    background-image: url("../images/team-it-work-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
 .design h1 {
     color: #FFFFFF;
     padding: 60px 0 80px 0;
