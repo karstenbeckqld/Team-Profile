@@ -101,19 +101,20 @@ h2 {
   -o-background-size: cover;
 }
 /*End of pages background image styles*/
-
-/* Front Page Content Styles */
-.fp-paragraph-image {
-  width: 80%;
-  margin-top: 40px;
+/* Other Styles */
+.img-center {
+	margin: 0 auto;
 }
-
+.footer-sticky {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 .footer {
   background-color: #1B1B1B;
   color: #D5D5D5;
   min-height: 100px;
 }
-.footer-styles {}
 .footer-styles a {
   color: #B5B5B5;
 }
@@ -175,6 +176,9 @@ td.no-border-right {
     /*margin-right: 40px;*/
     text-align: center;
   }
+  .footer-sticky {
+    position: relative;
+  }
 }
 @media (min-width:377px) and (max-width:575.98px) {
   .removable {
@@ -188,6 +192,9 @@ td.no-border-right {
     width: 30px;
     /*margin-right: 40px;*/
     text-align: center;
+  }
+  .footer-sticky {
+    position: relative;
   }
 }
 @media (min-width:576px) and (max-width:767.98px) {
@@ -207,6 +214,9 @@ td.no-border-right {
   .removable {
     padding-top: 20px;
   }
+  .footer-sticky {
+    position: relative;
+  }
 }
 @media (min-width:768px) and (max-width:959.98px) {
   .main h2 {
@@ -219,12 +229,18 @@ td.no-border-right {
   .removable {
     padding-top: 50px;
   }
+	.footer-sticky {
+    position: relative;
+}
 }
 @media (min-width:960px) and (max-width:1022.98px) {
   .main h2 {
     font-weight: 600;
     font-size: 1.2rem;
   }
+	.footer-sticky {
+    position: relative;
+}
 }
 @media (min-width:1023px) and (max-width:1199.98px) {
   .main h2 {
@@ -234,4 +250,7 @@ td.no-border-right {
   .main img {
     width: 100%;
   }
+	.footer-sticky {
+    position: relative;
+}
 }
