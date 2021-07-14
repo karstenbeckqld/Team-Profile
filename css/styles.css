@@ -103,11 +103,10 @@ h2 {
 /*End of pages background image styles*/
 
 /* Front Page Content Styles */
-/*.fp-paragraph-image {
+.fp-paragraph-image {
   width: 80%;
   margin-top: 40px;
-  align-items: center;
-}*/
+}
 /*.cybsersec-bg h1 {
     color: #2B454E;
 }*/
