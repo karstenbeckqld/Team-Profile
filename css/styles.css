@@ -109,6 +109,15 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+.project-bg {
+  background-image: url("../images/team-project-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 /*End of pages background image styles*/
 /* Other Styles */
 .img-center {
