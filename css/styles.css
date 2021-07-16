@@ -121,7 +121,7 @@ h2 {
 /*End of pages background image styles*/
 /* Other Styles */
 .img-center {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 .footer-sticky {
   position: fixed;
@@ -185,19 +185,19 @@ td.no-border-right {
   font-weight: bold;
 }
 .percentage83 {
-	background: url("../images/percentage83.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
+  background: url("../images/percentage83.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .percentage67 {
-	background: url("../images/percentage67.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
+  background: url("../images/percentage67.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .percentage33 {
-	background: url("../images/percentage33.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
+  background: url("../images/percentage33.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 /* Media Breakpoints */
 @media (max-width:376.98) {
@@ -211,6 +211,21 @@ td.no-border-right {
   }
   .footer-sticky {
     position: relative;
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 @media (min-width:377px) and (max-width:575.98px) {
@@ -228,6 +243,21 @@ td.no-border-right {
   }
   .footer-sticky {
     position: relative;
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 @media (min-width:576px) and (max-width:767.98px) {
@@ -250,6 +280,21 @@ td.no-border-right {
   .footer-sticky {
     position: relative;
   }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 @media (min-width:768px) and (max-width:959.98px) {
   .main h2 {
@@ -262,18 +307,48 @@ td.no-border-right {
   .removable {
     padding-top: 50px;
   }
-	.footer-sticky {
+  .footer-sticky {
     position: relative;
-}
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 @media (min-width:960px) and (max-width:1022.98px) {
   .main h2 {
     font-weight: 600;
     font-size: 1.2rem;
   }
-	.footer-sticky {
+  .footer-sticky {
     position: relative;
-}
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 @media (min-width:1023px) and (max-width:1199.98px) {
   .main h2 {
@@ -283,7 +358,22 @@ td.no-border-right {
   .main img {
     width: 100%;
   }
-	.footer-sticky {
+  .footer-sticky {
     position: relative;
-}
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
