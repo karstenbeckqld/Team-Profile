@@ -40,6 +40,11 @@ h2 {
 .main h2 {
   color: #FFFFFF;
   font-weight: 500;
+  margin-bottom: 0;
+}
+.main h2.name {
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 .design {
   background-color: #2B454E;
