@@ -184,6 +184,21 @@ td.no-border-right {
 .image-reference-span {
   font-weight: bold;
 }
+.percentage83 {
+	background: url("../images/percentage83.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.percentage67 {
+	background: url("../images/percentage67.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.percentage33 {
+	background: url("../images/percentage33.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
 /* Media Breakpoints */
 @media (max-width:376.98) {
   .removable {
