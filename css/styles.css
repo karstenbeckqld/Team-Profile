@@ -194,6 +194,11 @@ td.no-border-right {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.percentage50 {
+  background: url("../images/percentage50.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .percentage33 {
   background: url("../images/percentage33.svg");
   background-repeat: no-repeat;
@@ -218,6 +223,11 @@ td.no-border-right {
     background-size: contain;
   }
   .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage50 {
     background: url("../images/percentage-transparent.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -250,6 +260,11 @@ td.no-border-right {
     background-size: contain;
   }
   .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage50 {
     background: url("../images/percentage-transparent.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -290,6 +305,11 @@ td.no-border-right {
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .percentage50 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .percentage33 {
     background: url("../images/percentage-transparent.svg");
     background-repeat: no-repeat;
@@ -320,6 +340,11 @@ td.no-border-right {
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .percentage50 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .percentage33 {
     background: url("../images/percentage-transparent.svg");
     background-repeat: no-repeat;
@@ -340,6 +365,11 @@ td.no-border-right {
     background-size: contain;
   }
   .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage50 {
     background: url("../images/percentage-transparent.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -367,6 +397,11 @@ td.no-border-right {
     background-size: contain;
   }
   .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage50 {
     background: url("../images/percentage-transparent.svg");
     background-repeat: no-repeat;
     background-size: contain;
