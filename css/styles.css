@@ -123,6 +123,13 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+blockquote.standout {
+  color: #00C8FF;
+  font-size: 1.5rem;
+  text-indent: 10%;
+  margin-bottom: 20px;
+  
+}
 /*End of pages background image styles*/
 /* Other Styles */
 .img-center {
