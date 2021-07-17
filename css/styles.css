@@ -130,6 +130,9 @@ blockquote.standout {
   margin-bottom: 20px;
   
 }
+.icon {
+  width: 50px;
+}
 /*End of pages background image styles*/
 /* Other Styles */
 .img-center {
