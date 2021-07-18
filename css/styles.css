@@ -139,8 +139,8 @@ blockquote.standout {
 }
 /*End of pages background image styles*/
 /* Other Styles */
-.img-center {
-    margin: 0 auto;
+.img-custom {
+	width: 30%;
 }
 .footer-sticky {
     position: fixed;
