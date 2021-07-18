@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>A2 Group 10 - Software &amp; Technology</title>
+<title>A2 Group 10 - Strengths &amp; Limitations</title>
 <!-- Load Fonts from Google -->
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;800;900&family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 <!-- Bootstrap -->
@@ -55,31 +55,39 @@
 </nav>
 <div class="container-fluid shadow p-3 mb-5 design">
   <div class="container text-center">
-    <h1>A2 Group 10 - Software &amp; Technology</h1>
+    <h1>A2 Group 10 - Strengths &amp; Limitations</h1>
   </div>
 </div>
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h2>Software and Technology</h2>
-      <h3>Technology: Arduino</h3>
-      <p>While for this project, either an Arduino or a Raspberry Pi could be applicable, the decision fell on Arduino. This decision was based on the fact that a small compact system is needed to be installed on or next to a baby gate, and while Raspberry Pi might have a more comprehensive system, the fact that it needs a power outlet made it unsuitable for this project's approach. An Arduino can be operated with a 9V battery pack and therefore is better suited for this application. While running on low energy, Arduino is still a system that can read inputs, like a sensor or even a Twitter message, and turn it into an output. This output can activate a motor, turn on an LED or even send a message to a smartphone.</p>
-      <p>According to Arduino Introduction (2021), the Arduino resembles a simple and accessible system, and the software needed to program the onboard IC runs on all major platforms, including Windows and Mac operating systems. It adds that the software is easy to use for beginners, which most team members are, but is also flexible enough for advanced users. Like the Arduino boards, the software is also open-source and hence, is growing through users' contributions.</p>
-      <p>There are many other microcontrollers and microcontroller platforms available for physical computing. Parallax Basic Stamp, Netmedia's BX-24, Phidgets, MIT's Handyboard, and many others offer similar functionality. Nevertheless, Arduino offers some distinct advantages for teachers, students and interested amateurs. First, the Arduino Platform is relatively inexpensive. A complete Arduino starter kit is available for around $120, while a Raspberry Pi starts at $163. However, for this project, the entire kit is not even necessary, and the team just acquired the necessary equipment for only around $50. Second, as this project is performed by a team that is spread around Australia, the cross-platform compatibility of the Arduino software proves beneficial. The software is free of charge, and every team member can contribute from their PC or Mac system. As it is open source, there is likely even already a solution available online.</p>
-      <p>The Arduino platform itself is very versatile and can be easily expanded with socalled shields. Shields are available for almost any application: Ethernet and WiFi networking, Bluetooth, GSM cellular networking, motor control, RFID, audio, SD Card memory, GPS, data logging, sensors, colour LCD screens, and more. Shields can extend Arduino's functionality and are designed to fit into the Arduino's pin sockets. With only a couple of wires, additional functionality like relays and motors can be connected. For even further functionality, a so-called breadboard can be used to connect even more elements.</p>
-      <h3>Technology: Motion Sensor</h3>
-      <p>For the desired application, while using Bluetooth or WiFi connectivity, it might be possible to use a sensor like the Cygnett Smart Motion Sensor as seen in Figure 1 to wirelessly transmit a motion signal to the Arduino, so that a motor gets activated and the baby gate can be shut.</p>
-       
-      <p>&nbsp;</p>
-      <img class="img-fluid img-center" src="images/cygnett-smart-motion-sensor.png" alt="Cygnett Smart Motion Sensor by Harvey Norman, 2020" />
-      <p class="figure-caption">Figure 1: Cygnett Smart Motion Sensor by Harvey Norman, 2020</p>
-      <p>PIR is short for Passive Infrared, it is essentially a pyroelectric sensor that detect levels of infrared radiation, such as that given off by a human. They are typically small, inexpensive, low-power and easy to use, making them ideal for applications around the home that need to detect when a human has passed in or out of the sensors range (Adafruit 2014).</p>
-      <h3>Software: Arduino IDE 1.8.15</h3>
-       
-      <p>The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. This software can be used with any Arduino board. Arduino Software is available for Windows, Linux, and Mac OS. There's also an Arduino Web Editor which you can start to code online and save your sketches in the cloud. The most up-to-date version of the IDE includes all libraries and supports new Arduino boards.</p>
-      <div class="col-1 offset-11 text-right"><a class="to-top" href="#top"><img class="to-top" src="images/to-top.png" alt="Button to scroll to the top"></a>
-        <p class="spacer"></p>
-      </div>
+		<h2>Strengths</h2>
+		<h3>Rapid Development</h3>
+		<p>The project is using a development board, which means that changes to the underlying software and hardware and relatively easy to change during testing. This development environment allows us to easily test and validate new ideas to overcome any of the limitations that we encounter.</p>
+		<h3>Potential for smart home Integration</h3>
+		<p>Baby Boom Gate can be used with a wireless router to emit data from the sensors through to the Arduino device. This means that other devices, such as smart phones or laptops, that are also connected to Wireless local area network will be able to interact with these devices.</p>
+		<h3>Ease of Production</h3>
+		<p>All the individual components are relatively cheap and easy to acquire. Assembly time is minimal and, once the code is finalised, it is infinitely reusable, simply needing to be downloaded onto the device. Meaning that, once a prototype design is completed, the product could go to market in a short amount of time with few obstacles.</p>
+     
+      <div class="col-1 offset-11 text-right"><a class="to-top" href="#top"><img class="to-top" src="images/to-top.png" alt="Button to scroll to the top"></a> </div>
+        </div>
+  </div>
+</div>
+	<hr>
+	<div class="container">
+  <div class="row">
+    <div class="col-12">
+		<h2>Limitations</h2>
+		<h3>Battery Life</h3>
+		<p>Using a development board draws significantly more power from a battery than it would with a more stripped-down, production ready device. A stepper motor is also going to consume a significant amount of power from a 9V battery. Current estimates indicate this could be less than 48 hours of operation in the current configuration.</p>
+		<h3>Disadvantages of PIR Motion Sensors</h3>
+		<p>PIR motion sensors come with their own disadvantages. For instance, they are easily interfered with by various heat sources, ambient temperatures close to human temperatures reduce detection and sensitivity, and if human infrared radiation is blocked by other objects, it might not be detected by the probe at all.</p>
+		<h3>Multiple Points of Failure</h3>
+		<p>There are multiple points of failure in the project, including the PIR sensor, the router that communicates between the sensor and the Arduino and the battery power of the device itself. If any one of these components fail the project stops performing its function and cannot ensure the safety of the child.</p>
+		<h3>Safety Standards</h3>
+		<p>Given that there are multiple limitations to our project idea, further investigation would need to be undertaken to determine whether we are meeting safety standards for safety gates and barriers. Currently there is not an Australian safety standard for safety gates and barriers, however there are two international standards: the European EN 1930 and the American ASTM F10004. Achieving either one of these safety standards would be a good starting point for further refinement of our project.</p>
+     
+      <div class="col-1 offset-11 text-right"><a class="to-top" href="#top"><img class="to-top" src="images/to-top.png" alt="Button to scroll to the top"></a> </div>
         </div>
   </div>
 </div>
