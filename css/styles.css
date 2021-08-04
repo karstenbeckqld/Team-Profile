@@ -52,8 +52,24 @@ h2 {
   color: #ffffff;
   font-size: 1.3rem;
 }
-.v-offset {
+.v-offset-100 {
 	margin-top: 100px;
+}
+.v-offset-50 {
+	margin-top: 50px;
+}
+.parallax {
+	background-image: url("../images/test.jpg");
+  background-position:center;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  background-size: cover;
+	background-attachment: fixed;
+}
+.p-background {
+	background-color: #ffffff;
+	padding: 40px;
 }
 /* Start of feature colour block Styles */
 .main {
