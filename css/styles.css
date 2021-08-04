@@ -1,461 +1,492 @@
 body {
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #000000;
-    height: 100%;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000;
+  height: 100%;
 }
 h2 {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 .full-height {
-    height: 100%;
+  height: 100%;
 }
 .to-top {
-    width: 30px;
+  width: 30px;
 }
 .spacer {
-    height: 40px;
+  height: 40px;
 }
 /* Start of navigation styles */
 .navbar {
-    font-family: Roboto, sans-serif;
-    background-color: #FFFFFF;
-    color: #000000;
-    font-weight: 300;
-    font-size: 20px;
+  font-family: Roboto, sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-weight: 300;
+  font-size: 20px;
+}
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
 }
 /* End of navigation styles */
+/* Jumbotron Styles */
+.jumbotron {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  background-size: cover;
+}
+.jumbotron .company-slogan {
+  color: FFF;
+  padding: 20px;
+  background-color: #2781CF;
+}
+.company-slogan h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.company-slogan p {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+.v-offset {
+	margin-top: 100px;
+}
 /* Start of feature colour block Styles */
 .main {
-    padding-top: 100px;
-    background-color: #2B454E;
-    min-height: 500px;
-    box-shadow: 0 2 5 10 #000;
+  padding-top: 100px;
+  background-color: #2B454E;
+  min-height: 500px;
+  box-shadow: 0 2 5 10 #000;
 }
 .main h1 {
-    color: #FFFFFF;
-    padding: 60px 0 80px 0;
-    font-weight: 500;
-    text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 60px 0 80px 0;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .main h2 {
-    color: #FFFFFF;
-    font-weight: 500;
-    margin-bottom: 0;
+  color: #FFFFFF;
+  font-weight: 500;
+  margin-bottom: 0;
 }
 .main h2.name {
-    font-size: 1.2rem;
-    font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 .design {
-    background-color: #2B454E;
-    min-height: 100px;
-    box-shadow: 0 2 5 10 #000;
-    color: #FFFFFF;
+  background-color: #2B454E;
+  min-height: 100px;
+  box-shadow: 0 2 5 10 #000;
+  color: #FFFFFF;
 }
 .design h1 {
-    color: #FFFFFF;
-    padding: 60px 0 80px 0;
-    font-weight: 500;
-    text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 60px 0 80px 0;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 /*End of feature colour block styles*/
 /*Start of pages background image styles*/
 .info-bg {
-    background-image: url("../images/team-info-bg.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background-image: url("../images/team-info-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .profile-bg {
-    background-image: url("../images/team-profile-bg.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background-image: url("../images/team-profile-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .tech-bg {
-    background-image: url("../images/team-technology-bg.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background-image: url("../images/team-technology-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .it-work-bg {
-    background-image: url("../images/team-it-work-bg.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background-image: url("../images/team-it-work-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .jobs-bg {
-    background-image: url("../images/team-jobs-bg.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background-image: url("../images/team-jobs-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .industry-bg {
-    background-image: url("../images/team-industry-bg.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background-image: url("../images/team-industry-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .project-bg {
-    background-image: url("../images/team-project-bg.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background-image: url("../images/team-project-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 blockquote.standout {
-    color: #2683c6;
-    font-size: 1.5rem;
-    text-indent: 10%;
-    margin-bottom: 20px;
+  color: #2683c6;
+  font-size: 1.5rem;
+  text-indent: 10%;
+  margin-bottom: 20px;
 }
 .icon {
-    width: 50px;
-    margin-right: 30px;
+  width: 50px;
+  margin-right: 30px;
 }
 .profile-image {
-    width: 30%;
-    margin-top: 20px;
+  width: 30%;
+  margin-top: 20px;
 }
 /*End of pages background image styles*/
 /* Other Styles */
 .img-custom {
-	width: 30%;
+  width: 30%;
 }
 .footer-sticky {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 .footer {
-    background-color: #1B1B1B;
-    color: #D5D5D5;
-    min-height: 100px;
+  background-color: #1B1B1B;
+  color: #D5D5D5;
+  min-height: 100px;
 }
 .footer-styles a {
-    color: #B5B5B5;
+  color: #B5B5B5;
 }
 .footer-styles a:hover {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 .footer {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 .skills_marker {
-    width: 15px;
+  width: 15px;
 }
 /* Styles for table */
 .font-improve {
-    font-weight: 400;
-    border: 1px solid #000;
+  font-weight: 400;
+  border: 1px solid #000;
 }
 .text-blue {
-    color: #21abe4;
+  color: #21abe4;
 }
 .bg-blue {
-    background-color: #21abe4;
+  background-color: #21abe4;
 }
 .text-green {
-    color: #5db751;
+  color: #5db751;
 }
 .bg-green {
-    background-color: #5db751;
+  background-color: #5db751;
 }
 th.emphasis {
-    font-size: 1.5rem;
-    font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 td.border-emphasis {
-    border-top: 2px solid #000;
-    border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
 }
 td.border-emphasis-right {
-    border-right: 2px solid #000;
+  border-right: 2px solid #000;
 }
 td.no-border-right {
-    border-right: 0px;
+  border-right: 0px;
 }
 .image-reference {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
 }
 .image-reference-span {
-    font-weight: bold;
+  font-weight: bold;
 }
 .percentage83 {
-    background: url("../images/percentage83.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
+  background: url("../images/percentage83.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .percentage67 {
-    background: url("../images/percentage67.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
+  background: url("../images/percentage67.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .percentage50 {
-    background: url("../images/percentage50.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
+  background: url("../images/percentage50.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .percentage33 {
-    background: url("../images/percentage33.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
+  background: url("../images/percentage33.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 /* Media Breakpoints */
 @media (max-width:376.98) {
-    .removable {
-        display: none;
-    }
-    .to-top {
-        width: 30px;
-        /*margin-right: 40px;*/
-        text-align: center;
-    }
-    .footer-sticky {
-        position: relative;
-    }
-    .percentage83 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage67 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage50 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage33 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+  .removable {
+    display: none;
+  }
+  .to-top {
+    width: 30px;
+    /*margin-right: 40px;*/
+    text-align: center;
+  }
+  .footer-sticky {
+    position: relative;
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage50 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .profile-image {
-        width: 50%;
-        margin: 20px auto;
-    }
+    width: 50%;
+    margin: 20px auto;
+  }
 }
 @media (min-width:377px) and (max-width:575.98px) {
-    .removable {
-        display: none;
-        padding-top: 40px;
-    }
-    .main h1 {
-        font-size: 1.9rem;
-    }
-    .to-top {
-        width: 30px;
-        /*margin-right: 40px;*/
-        text-align: center;
-    }
-    .footer-sticky {
-        position: relative;
-    }
-    .percentage83 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage67 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage50 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage33 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+  .removable {
+    display: none;
+    padding-top: 40px;
+  }
+  .main h1 {
+    font-size: 1.9rem;
+  }
+  .to-top {
+    width: 30px;
+    /*margin-right: 40px;*/
+    text-align: center;
+  }
+  .footer-sticky {
+    position: relative;
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage50 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .profile-image {
-        width: 50%;
-        margin: 20px auto;
-    }
+    width: 50%;
+    margin: 20px auto;
+  }
 }
 @media (min-width:576px) and (max-width:767.98px) {
-    .col-small {
-        float: left;
-        width: 100%;
-        min-width: 16.6667%;
-    }
-    .main h2 {
-        font-weight: 500;
-        font-size: 1rem;
-    }
-    .main h2.name {
-        font-size: .8rem;
-        font-weight: 300;
-    }
-    .main img {
-        width: 100%;
-        padding-top: 20px;
-    }
-    .removable {
-        padding-top: 20px;
-    }
-    .footer-sticky {
-        position: relative;
-    }
-    .percentage83 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage67 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage50 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage33 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .profile-image {
-        width: 50%;
-        margin: 20px auto;
-    }
+  .col-small {
+    float: left;
+    width: 100%;
+    min-width: 16.6667%;
+  }
+  .main h2 {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .main h2.name {
+    font-size: .8rem;
+    font-weight: 300;
+  }
+  .main img {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .removable {
+    padding-top: 20px;
+  }
+  .footer-sticky {
+    position: relative;
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage50 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .profile-image {
+    width: 50%;
+    margin: 20px auto;
+  }
 }
 @media (min-width:768px) and (max-width:959.98px) {
-    .main h2 {
-        font-weight: 500;
-        font-size: 1rem;
-    }
-    .main img {
-        width: 100%;
-    }
-    .removable {
-        padding-top: 50px;
-    }
-    .footer-sticky {
-        position: relative;
-    }
-    .percentage83 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage67 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage50 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage33 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .profile-image {
-        width: 50%;
-        margin: 20px auto;
-    }
+  .main h2 {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .main img {
+    width: 100%;
+  }
+  .removable {
+    padding-top: 50px;
+  }
+  .footer-sticky {
+    position: relative;
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage50 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .profile-image {
+    width: 50%;
+    margin: 20px auto;
+  }
 }
 @media (min-width:960px) and (max-width:1022.98px) {
-    .main h2 {
-        font-weight: 600;
-        font-size: 1.2rem;
-    }
-    .footer-sticky {
-        position: relative;
-    }
-    .percentage83 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage67 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage50 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage33 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .profile-image {
-        width: 40%;
-        margin: 20px auto 0 auto;
-    }
+  .main h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .footer-sticky {
+    position: relative;
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage50 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .profile-image {
+    width: 40%;
+    margin: 20px auto 0 auto;
+  }
 }
 @media (min-width:1023px) and (max-width:1199.98px) {
-    .main h2 {
-        font-weight: 600;
-        font-size: 1.2rem;
-    }
-    .main img {
-        width: 100%;
-    }
-    .footer-sticky {
-        position: relative;
-    }
-    .percentage83 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage67 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage50 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .percentage33 {
-        background: url("../images/percentage-transparent.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+  .main h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .main img {
+    width: 100%;
+  }
+  .footer-sticky {
+    position: relative;
+  }
+  .percentage83 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage67 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage50 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .percentage33 {
+    background: url("../images/percentage-transparent.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .profile-image {
-        width: 40%;
-        margin: 20px auto 0 auto;
-    }
+    width: 40%;
+    margin: 20px auto 0 auto;
+  }
 }
