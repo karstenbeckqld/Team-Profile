@@ -1,3 +1,49 @@
+/* CSS HEX */
+--cafe-au-lait: #bd825bff;
+--dark-electric-blue: #5e758aff;
+--acid-green: #bac602ff;
+--lincoln-green: #366627ff;
+--dark-liver-horses: #4d3528ff;
+
+/* CSS HSL */
+--cafe-au-lait: hsla(24, 43%, 55%, 1);
+--dark-electric-blue: hsla(209, 19%, 45%, 1);
+--acid-green: hsla(64, 98%, 39%, 1);
+--lincoln-green: hsla(106, 45%, 28%, 1);
+--dark-liver-horses: hsla(21, 32%, 23%, 1);
+
+/* SCSS HEX */
+$cafe-au-lait: #bd825bff;
+$dark-electric-blue: #5e758aff;
+$acid-green: #bac602ff;
+$lincoln-green: #366627ff;
+$dark-liver-horses: #4d3528ff;
+
+/* SCSS HSL */
+$cafe-au-lait: hsla(24, 43%, 55%, 1);
+$dark-electric-blue: hsla(209, 19%, 45%, 1);
+$acid-green: hsla(64, 98%, 39%, 1);
+$lincoln-green: hsla(106, 45%, 28%, 1);
+$dark-liver-horses: hsla(21, 32%, 23%, 1);
+
+/* SCSS RGB */
+$cafe-au-lait: rgba(189, 130, 91, 1);
+$dark-electric-blue: rgba(94, 117, 138, 1);
+$acid-green: rgba(186, 198, 2, 1);
+$lincoln-green: rgba(54, 102, 39, 1);
+$dark-liver-horses: rgba(77, 53, 40, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
+$gradient-right: linear-gradient(90deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
+$gradient-bottom: linear-gradient(180deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
+$gradient-left: linear-gradient(270deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
+$gradient-top-right: linear-gradient(45deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
+$gradient-bottom-right: linear-gradient(135deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
+$gradient-top-left: linear-gradient(225deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
+$gradient-bottom-left: linear-gradient(315deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
+$gradient-radial: radial-gradient(#bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
+
 body {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000000;
@@ -18,7 +64,6 @@ h2 {
 .spacer-100 {
   height: 100px;
 }
-
 /* Start of navigation styles */
 .navbar {
   font-family: Roboto, sans-serif;
@@ -45,7 +90,7 @@ h2 {
 .jumbotron .company-slogan {
   color: FFF;
   padding: 20px;
-  background-color: #2781CF;
+  background-color: #366627;
 }
 .company-slogan h1 {
   color: #ffffff;
@@ -57,27 +102,34 @@ h2 {
   font-size: 1.3rem;
 }
 .v-offset-100 {
-	margin-top: 100px;
+  margin-top: 100px;
 }
 .v-offset-50 {
-	margin-top: 50px;
+  margin-top: 50px;
 }
-.parallax {
-	background-image: url("../images/test.jpg");
-  background-position:center;
+/*.parallax {
+  background-image: url("../images/test.jpg");
+  background-position: center;
   min-height: 700px;
   background-repeat: no-repeat;
   background-color: #FFFFFF;
   background-size: cover;
-	background-attachment: fixed;
-}
-.parallax-window {
-    min-height: 700px;
-    background: transparent;
+  background-attachment: fixed;
+}*/
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /**
+   * Default height
+   */
+  height: 100%;
 }
 .p-background {
-	background-color: #ffffff;
-	padding: 40px;
+  background-color: #ffffff;
+  padding: 40px;
 }
 /* Start of feature colour block Styles */
 .main {
@@ -203,15 +255,36 @@ blockquote.standout {
   width: 100%;
 }
 .footer {
-  background-color: #1B1B1B;
-  color: #D5D5D5;
-  min-height: 100px;
+    background-color: #f8f8f8;
+    color: #000;
+    min-height: 100px;
+}
+.footer-row {
+    background-color: #f8f8f8;
+}
+.footer-styles {
+	background-color: #f8f8f8;
+	min-height: 200px;
+}
+.footer-styles h3 {
+	font-size: 20px;
+	font-weight: 500;
+	font-variant-caps: small-caps;
+}
+.footer-styles ul {
+	
+}
+.footer-styles li {
+	list-style: none;
+	margin-left: -40px;
+	
 }
 .footer-styles a {
-  color: #B5B5B5;
+  color: #BD825B;
+	text-decoration: underline;
 }
 .footer-styles a:hover {
-  color: #FFFFFF;
+  color: #bac602;
 }
 .footer {
   padding-top: 40px;
@@ -512,5 +585,11 @@ td.no-border-right {
   .profile-image {
     width: 40%;
     margin: 20px auto 0 auto;
+  }
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
   }
 }
