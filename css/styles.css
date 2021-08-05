@@ -128,8 +128,9 @@ h2 {
   height: 100%;
 }
 .p-background {
-  background-color: #ffffff;
-  padding: 40px;
+    background-color: rgba(255,255,255,0.75);
+    padding: 40px;
+    border-radius: 20px;
 }
 /* Start of feature colour block Styles */
 .main {
