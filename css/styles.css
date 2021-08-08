@@ -107,6 +107,22 @@ h2 {
 .v-offset-50 {
   margin-top: 50px;
 }
+.jumbotron.fp-bottom{
+  background-image: url("../images/fp-bottom.jpg");
+  background-position: center;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  background-size: cover;
+}
+.fp-bottom-sloagan {
+  color: #000;
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgba(255,255,255,0.75);
+    padding: 20px;
+    border-radius: 20px;
+}
 /*.parallax {
   background-image: url("../images/test.jpg");
   background-position: center;
@@ -284,7 +300,7 @@ blockquote.standout {
 	
 }
 .footer-styles a {
-  color: #BD825B;
+	color: #3A3A3A;
 	text-decoration: underline;
 }
 .footer-styles a:hover {
