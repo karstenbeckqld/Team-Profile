@@ -80,7 +80,7 @@ h2 {
 /* End of navigation styles */
 /* Jumbotron Styles */
 .jumbotron {
-  background-image: url("../images/banner.png");
+  background-image: url("../images/banner.jpg");
   background-position: center;
   height: 700px;
   background-repeat: no-repeat;
@@ -131,6 +131,9 @@ h2 {
     background-color: rgba(255,255,255,0.75);
     padding: 40px;
     border-radius: 20px;
+}
+.on-transparent {
+  font-weight: 600;
 }
 /* Start of feature colour block Styles */
 .main {
