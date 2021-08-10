@@ -67,6 +67,9 @@ h2 {
 .spacer-100 {
   height: 100px;
 }
+.spacer-top {
+	margin-top: 100px;
+}
 /* Start of navigation styles */
 .navbar {
   font-family: Roboto, sans-serif;
@@ -181,6 +184,18 @@ h2 {
 }
 /*End of feature colour block styles*/
 /*Start of pages background image styles*/
+.card {
+	border: none;
+}
+.card-title {
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+.card-img-top {
+	height: 80px;
+	margin: 0 auto;
+}
 .info-bg {
   background-image: url("../images/team-info-bg.svg");
   background-repeat: no-repeat;
