@@ -1,49 +1,16 @@
 /* CSS HEX */
---cafe-au-lait: #bd825bff;
+/*--cafe-au-lait: #bd825bff;
 --dark-electric-blue: #5e758aff;
 --acid-green: #bac602ff;
 --lincoln-green: #366627ff;
 --dark-liver-horses: #4d3528ff;
 
 /* CSS HSL */
---cafe-au-lait: hsla(24, 43%, 55%, 1);
+/*--cafe-au-lait: hsla(24, 43%, 55%, 1);
 --dark-electric-blue: hsla(209, 19%, 45%, 1);
 --acid-green: hsla(64, 98%, 39%, 1);
 --lincoln-green: hsla(106, 45%, 28%, 1);
---dark-liver-horses: hsla(21, 32%, 23%, 1);
-
-/* SCSS HEX */
-$cafe-au-lait: #bd825bff;
-$dark-electric-blue: #5e758aff;
-$acid-green: #bac602ff;
-$lincoln-green: #366627ff;
-$dark-liver-horses: #4d3528ff;
-
-/* SCSS HSL */
-$cafe-au-lait: hsla(24, 43%, 55%, 1);
-$dark-electric-blue: hsla(209, 19%, 45%, 1);
-$acid-green: hsla(64, 98%, 39%, 1);
-$lincoln-green: hsla(106, 45%, 28%, 1);
-$dark-liver-horses: hsla(21, 32%, 23%, 1);
-
-/* SCSS RGB */
-$cafe-au-lait: rgba(189, 130, 91, 1);
-$dark-electric-blue: rgba(94, 117, 138, 1);
-$acid-green: rgba(186, 198, 2, 1);
-$lincoln-green: rgba(54, 102, 39, 1);
-$dark-liver-horses: rgba(77, 53, 40, 1);
-
-/* SCSS Gradient */
-$gradient-top: linear-gradient(0deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
-$gradient-right: linear-gradient(90deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
-$gradient-bottom: linear-gradient(180deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
-$gradient-left: linear-gradient(270deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
-$gradient-top-right: linear-gradient(45deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
-$gradient-bottom-right: linear-gradient(135deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
-$gradient-top-left: linear-gradient(225deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
-$gradient-bottom-left: linear-gradient(315deg, #bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
-$gradient-radial: radial-gradient(#bd825bff, #5e758aff, #bac602ff, #366627ff, #4d3528ff);
-
+--dark-liver-horses: hsla(21, 32%, 23%, 1);*/
 body {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000000;
@@ -68,7 +35,7 @@ h2 {
   height: 100px;
 }
 .spacer-top {
-	margin-top: 100px;
+  margin-top: 100px;
 }
 /* Start of navigation styles */
 .navbar {
@@ -113,7 +80,10 @@ h2 {
 .v-offset-50 {
   margin-top: 50px;
 }
-.jumbotron.fp-bottom{
+.v-offset-200 {
+	margin-top: 200px;
+}
+.jumbotron.fp-bottom {
   background-image: url("../images/fp-bottom.jpg");
   background-position: center;
   height: 700px;
@@ -126,11 +96,10 @@ h2 {
   color: #000;
   font-size: 2rem;
   text-align: center;
-  background-color: rgba(255,255,255,0.75);
-    padding: 20px;
-    border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 20px;
+  border-radius: 20px;
 }
-
 .parallax {
   position: relative;
   background-attachment: fixed;
@@ -140,9 +109,9 @@ h2 {
   height: 100%;
 }
 .p-background {
-    background-color: rgba(255,255,255,0.75);
-    padding: 40px;
-    border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 40px;
+  border-radius: 20px;
 }
 .on-transparent {
   font-weight: 600;
@@ -170,11 +139,11 @@ h2 {
   font-weight: 300;
 }
 .meet-the-team {
-	background-repeat: no-repeat;
-	background-image: url("../images/meet-the-team.jpg");
-	background-color: #2B454E;
-	height: 400px;
-	background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/meet-the-team.jpg");
+  background-color: #2B454E;
+  height: 600px;
+  background-size: cover;
 }
 .meet-the-team h1 {
   color: #ffffff;
@@ -182,19 +151,37 @@ h2 {
   font-weight: 500;
   text-transform: uppercase;
 }
+.tools-header {
+  background-repeat: no-repeat;
+  background-image: url("../images/tools.png");
+  background-color: #2B454E;
+  height: 600px;
+  background-size: cover;
+	background-position: bottom center;
+}
+.tools-header h1 {
+  color: #ffffff;
+  /*padding: 60px 0 80px 0;*/
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.line {
+  border-bottom: 1px solid #000;
+  margin-bottom: 15px;
+}
 /*End of feature colour block styles*/
 /*Start of pages background image styles*/
 .card {
-	border: none;
+  border: none;
 }
 .card-title {
-	text-align: center;
-	font-size: 1.3rem;
-	font-weight: 500;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 .card-img-top {
-	height: 80px;
-	margin: 0 auto;
+  height: 80px;
+  margin: 0 auto;
 }
 .info-bg {
   background-image: url("../images/team-info-bg.svg");
@@ -209,60 +196,6 @@ h2 {
   font-size: 1.1rem;
   font-weight: 600;
 }
-.profile-bg {
-  background-image: url("../images/team-profile-bg.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.tech-bg {
-  background-image: url("../images/team-technology-bg.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.it-work-bg {
-  background-image: url("../images/team-it-work-bg.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.jobs-bg {
-  background-image: url("../images/team-jobs-bg.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.industry-bg {
-  background-image: url("../images/team-industry-bg.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.project-bg {
-  background-image: url("../images/team-project-bg.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
 blockquote.standout {
   color: #2683c6;
   font-size: 1.5rem;
@@ -270,7 +203,7 @@ blockquote.standout {
   margin-bottom: 20px;
 }
 .icon {
-  width: 50px;
+	height: 80px;
   margin-right: 30px;
 }
 .profile-image {
@@ -288,33 +221,30 @@ blockquote.standout {
   width: 100%;
 }
 .footer {
-    background-color: #f8f8f8;
-    color: #000;
-    min-height: 100px;
+  background-color: #f8f8f8;
+  color: #000;
+  min-height: 100px;
 }
 .footer-row {
-    background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 .footer-styles {
-	background-color: #f8f8f8;
-	min-height: 200px;
+  background-color: #f8f8f8;
+  min-height: 200px;
 }
 .footer-styles h3 {
-	font-size: 20px;
-	font-weight: 500;
-	font-variant-caps: small-caps;
+  font-size: 20px;
+  font-weight: 500;
+  font-variant-caps: small-caps;
 }
-.footer-styles ul {
-	
-}
+.footer-styles ul {}
 .footer-styles li {
-	list-style: none;
-	margin-left: -40px;
-	
+  list-style: none;
+  margin-left: -40px;
 }
 .footer-styles a {
-	color: #3A3A3A;
-	text-decoration: underline;
+  color: #3A3A3A;
+  text-decoration: underline;
 }
 .footer-styles a:hover {
   color: #bac602;
