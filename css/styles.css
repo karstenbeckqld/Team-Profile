@@ -62,7 +62,7 @@ h2 {
 }
 .jumbotron .company-slogan {
   color: FFF;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   background-color: #366627;
 }
 .company-slogan h1 {
@@ -73,6 +73,14 @@ h2 {
 .company-slogan p {
   color: #ffffff;
   font-size: 1.3rem;
+}
+.lead {
+  font-weight: 300;
+}
+.laser {
+  margin-top: -20px;
+  font-weight: 300;
+  font-size: 0.1rem;
 }
 .v-offset-100 {
   margin-top: 100px;
@@ -160,6 +168,30 @@ h2 {
 	background-position: bottom center;
 }
 .tools-header h1 {
+  color: #ffffff;
+  /*padding: 60px 0 80px 0;*/
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.project-overview {
+  background-repeat: no-repeat;
+  background-image: url("../images/project.png");
+  height: 600px;
+  background-size: cover;
+}
+.project-overview h1 {
+  color: #ffffff;
+  /*padding: 60px 0 80px 0;*/
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.project-detail {
+  background-repeat: no-repeat;
+  background-image: url("../images/project_detail.png");
+  height: 600px;
+  background-size: cover;
+}
+.meet-the-team h1 {
   color: #ffffff;
   /*padding: 60px 0 80px 0;*/
   font-weight: 500;
