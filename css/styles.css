@@ -188,7 +188,8 @@ pre {
 }
 .project {
   background-repeat: no-repeat;
-  background-image: url("../images/process.svg");
+  background-image: url("../images/p3.jpg");
+  background-position: top center;
   height: 600px;
   
 }
