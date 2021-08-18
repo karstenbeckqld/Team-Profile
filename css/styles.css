@@ -100,6 +100,12 @@ pre {
 .v-offset-200 {
   margin-top: 200px;
 }
+.v-offset-400 {
+	margin-top: 400px;
+}
+.v-offset-430 {
+	margin-top: 430px;
+}
 .jumbotron.fp-bottom {
   background-image: url("../images/fp-bottom.jpg");
   background-position: center;
@@ -180,16 +186,32 @@ pre {
   font-weight: 500;
   text-transform: uppercase;
 }
-.project-overview {
+.project {
   background-repeat: no-repeat;
-  background-image: url("../images/project.png");
+  background-image: url("../images/process.svg");
   height: 600px;
-  background-size: cover;
+  
 }
-.project-overview h1 {
+.project h1 {
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
+}
+.project .company-slogan {
+  color: FFF;
+  padding: 20px 20px 10px 20px;
+  background-color: #366627;
+background-size: cover;
+	background-position: top center;
+}
+.project .company-slogan h1 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+project .company-slogan p {
+  color: #ffffff;
+  font-size: 1.3rem;
 }
 .plans {
   background-repeat: no-repeat;
