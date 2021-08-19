@@ -194,23 +194,45 @@ pre {
   
 }
 .project h1 {
-  color: #ffffff;
+  color: #FFF;
   font-weight: 500;
   text-transform: uppercase;
 }
 .project .company-slogan {
-  color: FFF;
+  color: #FFF;
   padding: 20px 20px 10px 20px;
   background-color: #366627;
-background-size: cover;
-	background-position: top center;
 }
 .project .company-slogan h1 {
-  color: #ffffff;
   font-size: 1.8rem;
   font-weight: 400;
 }
-project .company-slogan p {
+.project .company-slogan p {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+.career {
+  background-repeat: no-repeat;
+  background-image: url("../images/hiring.svg");
+  background-position: center right;
+  height: 600px;
+  
+}
+.career h1 {
+  color: #FFF;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.career .company-slogan {
+  color: #FFF;
+  padding: 20px 20px 10px 20px;
+  background-color: #366627;
+}
+.career .company-slogan h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.career .company-slogan p {
   color: #ffffff;
   font-size: 1.3rem;
 }
