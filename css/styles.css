@@ -348,6 +348,9 @@ blockquote.standout {
 	padding: 10px 30px;
 	border-radius: 0;
 }
+.seek1:hover {
+  background-color: #d90d81;
+}
 .seek2 {
 	background-color: rgba(215,215,215,1.00);
 	color: #FFF;
