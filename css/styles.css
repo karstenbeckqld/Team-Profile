@@ -194,6 +194,12 @@ pre {
     background-position: top center;
     height: 600px;
 }
+.reflection {
+    background-repeat: no-repeat;
+    background-image: url("../images/reflections.jpg");
+    background-position: bottom center;
+    height: 600px;
+}
 /*.career h1 {
   color: #FFF;
   font-weight: 500;
@@ -333,8 +339,14 @@ blockquote.standout {
 }
 /*Other Styles*/
 .btn-primary {
-    background-color: #3A095C;
-    border: none;
+    background-color: #24545C;
+	border-radius: 0;
+	padding: 10px 30px;
+	color: #FFF;
+}
+.btn-primary:hover {
+	background-color: #327883;
+	color: #FFF;
 }
 .seek1 {
     background-color: #24545C;
