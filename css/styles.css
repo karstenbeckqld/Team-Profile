@@ -192,8 +192,8 @@ pre {
 }*/
 .career {
   background-repeat: no-repeat;
-  background-image: url("../images/hiring.svg");
-  background-position: center right;
+  background-image: url("../images/hiring-m.svg");
+  background-position: top center;
   height: 600px;
   
 }
