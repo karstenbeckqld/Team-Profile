@@ -342,6 +342,27 @@ blockquote.standout {
 	background-color: #3A095C;
 	border: none;
 }
+.seek1 {
+	background-color: #c50b75;
+	color: #FFF;
+	padding: 10px 30px;
+	border-radius: 0;
+}
+.seek2 {
+	background-color: rgba(215,215,215,1.00);
+	color: #FFF;
+	padding: 10px 30px;
+	border-radius: 0;
+}
+.job-subheader {
+	font-size: 1rem;
+	font-weight: bold;
+	line-height: 12px;
+}
+.job-specifics {
+	font-size: 1rem;
+	line-height: 12px;
+}
 .lead {
   font-weight: 300;
 }
