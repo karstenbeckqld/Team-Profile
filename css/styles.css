@@ -192,7 +192,7 @@ pre {
 }*/
 .career {
   background-repeat: no-repeat;
-  background-image: url("../images/hiring-m.svg");
+  background-image: url("../images/hiring.svg");
   background-position: top center;
   height: 600px;
   
@@ -343,19 +343,22 @@ blockquote.standout {
 	border: none;
 }
 .seek1 {
-	background-color: #c50b75;
+	background-color: #24545C;
 	color: #FFF;
 	padding: 10px 30px;
 	border-radius: 0;
 }
 .seek1:hover {
-  background-color: #d90d81;
+  background-color: #327883;
 }
 .seek2 {
 	background-color: rgba(215,215,215,1.00);
 	color: #FFF;
 	padding: 10px 30px;
 	border-radius: 0;
+}
+.seek2:hover {
+  background-color: #B8B8B8;
 }
 .job-subheader {
 	font-size: 1rem;
