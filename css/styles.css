@@ -338,6 +338,13 @@ blockquote.standout {
     padding-top: 40px;
 }
 /*Other Styles*/
+.timeframe {
+  width: 100%;
+  margin: 0 auto;
+}
+.underline {
+  text-decoration: underline;
+}
 .btn-primary {
     background-color: #24545C;
 	border-color: #23545c;
@@ -346,6 +353,11 @@ blockquote.standout {
 	color: #FFF;
 }
 .btn-primary:hover {
+	background-color: #327883;
+	border-color: #23545c;
+	color: #FFF;
+}
+.btn-primary:active {
 	background-color: #327883;
 	border-color: #23545c;
 	color: #FFF;

@@ -19,13 +19,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
-      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Company Info </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="info.html">Meet the Team</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="profile.html">Group Processes</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="profile.html">Career Plans</a></div>
-      </li>
+      <li class="nav-item"> <a class="nav-link" href="info.html">Company Info</a> </li>
       <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
       <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> The BBG Project </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="description_overview_motivation.html">Description, Overview, Motivation</a>
@@ -38,11 +32,11 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="tools_technologies_testing.html">Tools, Technologies, Testing</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="roles_scope_limits.html">Timeframe, Risks, Processes</a></div>
+          <a class="dropdown-item" href="timeframe_risks_processes.html">Timeframe, Risks, Processes</a></div>
       </li>
       <li class="nav-item"> <a class="nav-link" href="skills_jobs.html">Skills &amp; Jobs</a> </li>
       <li class="nav-item"> <a class="nav-link" href="reflection.html">Reflection</a> </li>
-      <li class="nav-item"><a class="nav-link" href="https://urkii09.github.io/Team-Profile/">A2</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://urkii09.github.io/Team-Profile/" target="_blank">A2</a></li>
     </ul>
   </div>
 </nav>
@@ -57,18 +51,21 @@
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-12">
+    <div class="offset-lg-1 col-lg-10 col-md-12 col-sm-12">
       <h2>Aims</h2>
       <p> The aim of the project is to use an Arduino and connected components to close a baby gate based on input from a sensor. The sensor is to be able to detect a child in proximity to activate the motor and the motor is to be able to push a child safety gate to a closed position. 
         The aim can be split into two goals; firstly, to receive information from a sensor and secondly, to close the gate. The sensor needs to be sensitive enough that it will detect a toddler but directed enough that it won’t close anytime somebody goes near it. This will allow the parents to pass through the open gate without triggering the sensor. </p>
       <p>The device must then be able to close the gate once the sensor is triggered. As the gate is self-closing and auto-locking, it will simply need to be pushed hard enough to move it from its open position past a pivot point and let it close on its own. The gate will need to close quickly enough after the sensor is triggered to ensure that it cannot be reached while still open after the toddler is sensed.</p>
+      <p>Below is a schematic of the Baby Boom Gate’s circuitry. A copy of the code is also included in the Appendix. </p>
+      <div class="text-center"> <a href="images/bbg_schematic.png"><img class="schematic" src="images/bbg_schematic.png" alt="Schematic of Arduino wiring"/></a> </div>
+      <p class="figure-caption">Schematic of the Baby Boom Gate’s circuitry.</p>
     </div>
   </div>
 </div>
 <hr>
 <div class="container">
   <div class="row">
-    <div class="col-12">
+    <div class="offset-lg-1 col-lg-10 col-md-12 col-sm-12">
       <h2>Plans &amp; Progress</h2>
       <p>The Baby Boom Gate is designed to solve a simple problem - an inconvenient baby gate at the top of a set of stairs. The gate needs to be there, and needs to be closed, for the safety of a child, but this is an inconvenience for the parents. If you carry something up the stairs, a closed gate is just in the way. So, our project was created to allow for the gate to remain open for the convenience of the parents, but to close automatically when the child comes within range in order to continue ensuring their safety. From the start it was apparent that a motion detecting device would be needed, along with something that could then physically close the gate, and something to communicate between the two.</p>
       <p>After Raspberry Pis and Arduinos were discussed at the beginning of the course in one of the podcasts, they were explored as options for processing the communication between the sensor and a motor. It didn’t take much research to see that while the Raspberry Pi units have a greater processing power, and are able to run far more complex programs, Arduinos are better suited to run simple programs and providing power to small devices. As the project at this point was only looking to take a single input and convert it to a single output, the Arduino was clearly the better fit. It was then a matter of looking into what motors work well with these devices and what kind of motion sensors are available. It was expected that this would start pushing up the budget of the device somewhat, but the reality is that the parts required are quite small and surprisingly cheap. </p>
@@ -80,8 +77,7 @@
       <p>Unfortunately, the motor itself was simply turning a spindle, there wasn’t anything attached to it that could apply pressure to the gate. A makeshift paddle had to be created. Ultimately, a small Allen key connected to the spindle with a bulldog clip and a cable tie did the trick and the jury-rigged device was brought to the gate in question for testing. This was a mitigated success. The turning of the motor was just barely enough to push the gate far enough to trigger the self-closing. But it had to be held firmly to achieve this and it was clear that a bulldog clip and a cable tie were not going to be sufficient long-term solutions to everybody’s great surprise. It also needed to be approximately halfway along the gate from the hinge or further. It turned out that any closer to the hinge there was not enough torque. It was also apparent in situ that a PIR sensor was not the best choice for triggering the device, as it is hard to focus in a particular direction, meaning that it will be triggered by anybody passing nearby, not just a child nearing the gate. But proof of concept was achieved - a motion sensor successfully triggered a motor, which successfully closed the gate. It now simply needed tweaking and upgrading to improve the design enough to make it truly viable. </p>
       <p>The most obvious issue was securing the device. Something will be needed to hold the device firmly in place so that it can exert the force required without the assistance of a hand holding it steady. The ideal place for this is next to the hinge, but the stepper motor is not strong enough for that. So, the issue is the strength of the stepper motor, which is only just able to close the gate. There is also the concern that a single 9V battery will not last long enough to be practical when powering the device if it is to be left on overnight for safety. Lastly, upgrading from PIR to another sensor. </p>
       <p>Upgrading the sensor proved to be a simple fix. A laser diode was obtained along with light dependant resistor, or LDR. The LDR provides a signal by way of electrical resistance in the circuit based on how much light it detects. With the laser diode focused on the LDR, it detects a lot of light. If anything blocks the laser from hitting the LDR, the amount of light detected drops, allowing us to trigger the motor based on that signal. This effectively creates a laser ‘tripwire’ that can be placed outside the child’s room to specifically target someone passing through the doorway. The components were connected to the Duinotech board, the code slightly altered, and the device still worked. The motor turned when the laser tripwire was broken.</p>
-      <p>Below is a schematic of the Baby Boom Gate’s circuitry. A copy of the code is also included in the Appendix. </p>
-      <div class="text-center"> <a href="images/bbg_schematic.png"><img class="schematic" src="images/bbg_schematic.png" alt="Schematic of Arduino wiring"/></a> </div>
+      
       <p>That describes the Baby Boom Gate in its current form, there are some plans in place for the future of the device to overcome the other challenges listed above. One is the inclusion of a clamping device to hold it in place. The idea is to attach it to the side of the gate at the base, near the hinge. This would be the best position for it to be stable in relation to the gate, while still having easy access to it to push it closed. It would also mean that nothing around the gate need be affected, i.e., it wouldn’t have to be attached to the floor or a wall, etc, keeping the device entirely confined to the gate for which it is an accessory. </p>
       <p>For the second issue, either a stronger or a different motor should be tested. A possible alternative is swapping out the stepper motor for a solenoid component to provide a more straightforward pushing action and removing the need for a paddle attachment. This would also remove one possible point of failure in that the connection between the motor and paddle is not especially strong in its current form. While a solenoid was obtained for testing, it could not be made to work with the device in the timeframe. More testing is required to determine the reason and find a solution. If an appropriate solenoid cannot be found or it proves through testing to not be an effective replacement, then a purpose designed, 3D-printed paddle will perhaps be necessary to continue with the stepper motor. If a stronger motor is needed, it will likely require a higher voltage power supply. </p>
       <p>Which raises the third issue to be addressed, which is the power supply. Stepper motors are not great choices for battery operations as they draw the same power when not in use as they do when in use, which is another point for substitution of a solenoid. The alternative is not changing the motor but changing from battery to mains supply. This will solve the battery life issue but will reduce portability. If batteries are to be kept, it might be necessary to switch to a 12V battery, which would support a considerably stronger motor, but will be somewhat more costly. In the meantime, a holder for 8 AA batteries was substituted for the 9V snap connector, providing 12V (8 x 1.5V) instead of 9V.</p>
@@ -93,7 +89,7 @@
 <hr>
 <div class="container">
   <div class="row">
-    <div class="col-12">
+    <div class="offset-lg-1 col-lg-10 col-md-12 col-sm-12">
       <h2>Appendix - Baby Boom Gate Operating Code</h2>
       <pre>
 /*
