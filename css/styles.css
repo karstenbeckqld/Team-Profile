@@ -185,7 +185,7 @@ pre {
 .career {
     background-repeat: no-repeat;
     background-image: url("../images/hiring.svg");
-    background-position: top center;
+    background-position: top left;
     height: 600px;
 }
 .reflection {
