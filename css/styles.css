@@ -1,16 +1,3 @@
-/* CSS HEX */
-/*--cafe-au-lait: #bd825bff;
---dark-electric-blue: #5e758aff;
---acid-green: #bac602ff;
---lincoln-green: #366627ff;
---dark-liver-horses: #4d3528ff;
-
-/* CSS HSL */
-/*--cafe-au-lait: hsla(24, 43%, 55%, 1);
---dark-electric-blue: hsla(209, 19%, 45%, 1);
---acid-green: hsla(64, 98%, 39%, 1);
---lincoln-green: hsla(106, 45%, 28%, 1);
---dark-liver-horses: hsla(21, 32%, 23%, 1);*/
 body {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000000;
@@ -30,6 +17,12 @@ h2 {
 }
 .spacer-40 {
     height: 40px;
+}
+.spacer-80 {
+  height: 80px;
+}
+.spacer-90 {
+  height: 90px;
 }
 .spacer-100 {
     height: 100px;
@@ -113,6 +106,7 @@ pre {
     background-color: rgba(255, 255, 255, 0.75);
     padding: 40px;
     border-radius: 20px;
+    margin: 20px 0;
 }
 .on-transparent {
     font-weight: 600;
@@ -200,6 +194,12 @@ pre {
     background-position: bottom center;
     height: 600px;
 }
+.references {
+    background-repeat: no-repeat;
+    background-image: url("../images/references.jpg");
+    background-position: bottom center;
+    height: 600px;
+}
 /*.career h1 {
   color: #FFF;
   font-weight: 500;
@@ -242,7 +242,7 @@ pre {
 }*/
 .line {
     border-bottom: 1px solid #000;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 /*End of feature colour block styles*/
 /*Start of pages background image styles*/
@@ -340,7 +340,7 @@ blockquote.standout {
 /*Other Styles*/
 .timeframe {
   width: 100%;
-  margin: 0 auto;
+  margin: 20px auto 20px auto;
 }
 .underline {
   text-decoration: underline;
@@ -515,6 +515,9 @@ td.no-border-right {
         width: 50%;
         margin: 20px auto;
     }
+  .spacer-90{
+    height: 20px;
+  }
 }
 @media (min-width:377px) and (max-width:575.98px) {
     .removable {
@@ -556,6 +559,9 @@ td.no-border-right {
         width: 50%;
         margin: 20px auto;
     }
+  .spacer-90{
+    height: 20px;
+  }
 }
 @media (min-width:576px) and (max-width:767.98px) {
     .col-small {
@@ -605,6 +611,9 @@ td.no-border-right {
         width: 50%;
         margin: 20px auto;
     }
+  .spacer-90{
+    height: 20px;
+  }
 }
 @media (min-width:768px) and (max-width:959.98px) {
     .main h2 {
@@ -644,6 +653,9 @@ td.no-border-right {
         width: 50%;
         margin: 20px auto;
     }
+  .spacer-90{
+    height: 20px;
+  }
 }
 @media (min-width:960px) and (max-width:1022.98px) {
     .main h2 {
@@ -677,6 +689,7 @@ td.no-border-right {
         width: 40%;
         margin: 20px auto 0 auto;
     }
+  
 }
 @media (min-width:1023px) and (max-width:1199.98px) {
     .main h2 {
