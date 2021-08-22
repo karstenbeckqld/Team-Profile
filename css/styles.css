@@ -362,6 +362,23 @@ blockquote.standout {
 	border-color: #23545c;
 	color: #FFF;
 }
+.btn-dark {
+  background-color: #1E1E1E;
+  border-color: #1e1e1e;
+  border-radius: 0;
+  padding: 10px 30px;
+  color: #FFf;
+}
+.btn-dark:hover {
+  background-color: #327883;
+  border-color: #327883;
+  color: #FFf;
+}
+.btn-dark:active {
+  background-color: #327883;
+  border-color: #327883;
+  color: #FFf;
+}
 .seek1 {
     background-color: #c50b75;
 	border-color: #c50b75;
